@@ -11,7 +11,7 @@ page	equ $08
 	org $803	; starting address
 
 Start
-
+	
         lda	$c050		; graphics
         lda	$c052		; full
         lda	$c057		; hires
